@@ -3,10 +3,10 @@
 {% load crispy_forms_tags %}
 {% block body %}
 <div class="lol">
-<div class="card mt-4" style="width: 18rem;">
+<div class="card mt-4" style="min-width: 320px;">
     <div id ='dane' class="card-body">
         {% if gra %}
-            <p>Swoją grę znajdziesz pod adresem <a href="{% url 'memory' id=gra.id %}">{% url 'memory' id=gra.id %}</a></p>
+            <p>Swoją grę znajdziesz pod adresem <a href="{% url 'memory' uuid=gra.uuid %}">{% url 'memory' uuid=gra.uuid %}</a></p>
         {% else %}
         <form action="{% url 'create' %}" method="post" enctype="multipart/form-data" >
             {% csrf_token %}
