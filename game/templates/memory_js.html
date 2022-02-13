@@ -1,6 +1,7 @@
 <script>
     document.addEventListener('DOMContentLoaded',
         () => {
+            const cards = [];
             const back = '/static/back.jpg';
             const white = '/static/white.jpg';
             const cardArray = [
@@ -71,10 +72,6 @@
 
             ]
 
-            function help() {
-                document.document.getElementById('dane').innerHTML = 'coś'
-            }
-
             const grid = document.querySelector('.grid');
             const resultDisplay = document.querySelector('#result')
             var cardChosen = []
@@ -110,12 +107,11 @@
 
             // check for matchs
             function checkForMatch() {
-                var cards = document.querySelectorAll('img')
+                var cards = document.querySelectorAll(".wrapper img");
                 const optionOneId = cardChosenId[0]
                 const optionTwoId = cardChosenId[1]
 
                 if (cardChosen[0] === cardChosen[1]) {
-
                     cards[optionOneId].setAttribute('src', white)
                     cards[optionTwoId].setAttribute('src', white)
                     cardWon.push(cardChosen)
@@ -124,7 +120,6 @@
                 } else {
                     cards[optionOneId].setAttribute('src', back)
                     cards[optionTwoId].setAttribute('src', back)
-
                 }
                 cardChosen = []
                 cardChosenId = []
