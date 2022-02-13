@@ -1,9 +1,10 @@
-body{
+body {
     background: #546E7A;
 }
-.grid{
+
+.grid {
     position: relative;
-    display:  flex;
+    display: flex;
     flex-wrap: wrap;
     margin: auto;
     border-radius: 16px;
@@ -12,26 +13,30 @@ body{
     box-shadow: 1px 1px 20px 1px white;
 
 }
-.lol{
+
+.lol {
     display: flex;
-    justify-content:center;
+    justify-content: center;
 
 
 }
+
 .wrapper {
-  width: 100vmin;
+    width: 100vmin;
+    margin-bottom: 16px;
 }
 
 .wrapper img {
-  width: 22vmin;
-  height: 22vmin;
-  object-fit: cover;
-  padding: 0;
+    width: 22vmin;
+    height: 22vmin;
+    object-fit: cover;
+    padding: 0;
+    border-radius: 16px;
+    margin: 0.5vmin;
 }
 
 
-
-.finish{
+.finish {
 
     background-color: #CFD8DC;
     text-align: center;
@@ -48,11 +53,13 @@ body{
     align-items: center;
     justify-content: center;
 }
-h1, h3{
+
+h1, h3 {
     color: #263238;
 }
+
 .button:hover {
 
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 
 }
