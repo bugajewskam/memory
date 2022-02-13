@@ -5,13 +5,23 @@
     {% include 'memory_js.html' %}
 {% endblock %}
 {% block body %}
-
-<h3> Score: <span id="result"></span></h3>
-<div class="grid wrapper">
-<div id = 'win' class="finish" hidden>
-    <h1>You won !</h1>
-    <button type="button" class="btn btn-secondary btn-lg" disabled>Play again</button>
-</div>
-</div>
+    <div hidden>
+        <img src="{{ memory.img_1.url }}" hidden/>
+        <img src="{{ memory.img_2.url }}" hidden/>
+        <img src="{{ memory.img_3.url }}" hidden/>
+        <img src="{{ memory.img_4.url }}" hidden/>
+        <img src="{{ memory.img_5.url }}" hidden/>
+        <img src="{{ memory.img_6.url }}" hidden/>
+        <img src="{{ memory.img_7.url }}" hidden/>
+        <img src="{{ memory.img_8.url }}" hidden/>
+        <img src="/static/white.jpg" hidden/>
+    </div>
+    <h3> Score: <span id="result"></span></h3>
+    <div class="grid wrapper">
+        <div id='win' class="finish" hidden>
+            <h1>You won !</h1>
+            <button type="button" class="btn btn-secondary btn-lg" disabled>Play again</button>
+        </div>
+    </div>
 
 {% endblock %}
