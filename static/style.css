@@ -17,13 +17,12 @@ body {
 .lol {
     display: flex;
     justify-content: center;
-
-
 }
 
 .wrapper {
-    width: 100vmin;
+    width: 96vmin;
     margin-bottom: 16px;
+    padding: 2vmin;
 }
 
 .wrapper img {

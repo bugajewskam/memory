@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded',
             resultDisplay.textContent = cardWon.length
 
 
-            if ( cardWon.length === cardArray.length/2){
+            if (cardWon.length === cardArray.length/2){
                 document.getElementById('win').hidden = false;
                 document.getElementById('button').addEventListener("click", function() {
                     placeCards();
