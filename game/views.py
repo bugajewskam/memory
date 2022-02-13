@@ -31,8 +31,8 @@ def create(request):
     })
 
 
-def memory(request, id):
-    memory = Memory.objects.filter(id=id).first()
+def memory(request, uuid):
+    memory = Memory.objects.filter(uuid=uuid).first()
     if not memory:
         raise Http404()
     return render(request, 'memory.html', {
