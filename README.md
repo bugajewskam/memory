@@ -10,6 +10,7 @@ Memory game created using Django and plain Javascript. You can define your own i
 
 ## Demo
 You can play one at https://bugajewskam.pythonanywhere.com/memory/5e0c3042-7a51-4d9a-8ba1-8e3efd607430
+
 You can create your own game https://bugajewskam.pythonanywhere.com/create
 
 ## Todo
