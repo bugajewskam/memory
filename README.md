@@ -3,9 +3,9 @@ Memory game created using Django and plain Javascript. You can define your own i
 
 <p align="center">
   <img width="200" height="432" src="https://user-images.githubusercontent.com/53918817/166166122-2965425c-5daf-43ef-8358-2ea2fd5d62a6.png">
-  <img width="300" height="432" src="https://user-images.githubusercontent.com/53918817/166166124-51995134-4864-4f9e-9d38-5effaaebcaa5.png">
-  <img width="300" height="432" src="https://user-images.githubusercontent.com/53918817/166166125-ead20560-fd8b-4cfb-9204-6467ecd6de4e.png">
-  <img width="300" height="432" src="https://user-images.githubusercontent.com/53918817/166166126-f44a9b87-3dad-445a-ab31-c0c4c1307d04.png">
+  <img width="200" height="432" src="https://user-images.githubusercontent.com/53918817/166166124-51995134-4864-4f9e-9d38-5effaaebcaa5.png">
+  <img width="200" height="432" src="https://user-images.githubusercontent.com/53918817/166166125-ead20560-fd8b-4cfb-9204-6467ecd6de4e.png">
+  <img width="200" height="432" src="https://user-images.githubusercontent.com/53918817/166166126-f44a9b87-3dad-445a-ab31-c0c4c1307d04.png">
 </p>
 
 ## Demo
